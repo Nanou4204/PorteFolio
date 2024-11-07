@@ -10,15 +10,15 @@
     <body>
         <header>
             <?php
-                include 'PHP/NavBarre.php'
+                include_once 'NavIndex.php';
             ?>
         </header>
 
         <main>
-            <img src="#" class= "img-fluid" alt="ma tête">
-            <p>
-                Etudiante en deuxième année de  BUT MMI
-            </p>
+            <div class="bouton">
+                <button type="button" class="btn btn-lg">Découvrir</button>
+            </div>
+
         </main>
 
         <footer>

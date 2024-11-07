@@ -1,11 +1,7 @@
-body {
-    background: url(../Image/Forest.jpeg) no-repeat center center fixed;
-    background-size: cover;
-}
-
 nav.navbar{
     background-color: rgba(8, 54, 73, 0.2);
     backdrop-filter: blur(5.5px);
+    height: 140px;
 }
 
 a.navbar-brand, a.nav-link{
@@ -13,11 +9,6 @@ a.navbar-brand, a.nav-link{
     font-family: 'Copperplate', sans-serif;
     font-weight: 400;
     font-size: 30px;
-}
-
-div.bouton{
-    display: flex;
-    justify-content: center;
 }
 
 button.btn{
@@ -32,4 +23,3 @@ button.btn{
     font-weight: 400;
     font-size: 30px;
 }
-
