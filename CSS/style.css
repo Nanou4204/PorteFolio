@@ -1,0 +1,30 @@
+body {
+    background: url(../Image/image.svg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav.navbar{
+    background-color: rgba(8, 54, 73, 0.2);
+    backdrop-filter: blur(5.5px);
+    height: 140px;
+}
+
+a.navbar-brand, a.nav-link{
+    color: #ECF8FD;
+    font-family: 'Copperplate', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+button.btn{
+    background-color: rgba(8, 54, 73, 0.15);
+    backdrop-filter: blur(3px);
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
+
+    color: #ECF8FD;
+    font-family: 'Copperplate', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
